@@ -86,9 +86,9 @@ public class BlockCreate : MonoBehaviour
 			block.name = "block"; // 블럭의 이름을 block로 한다
 
 		GameManager.Instance.GM_objectList.Add(block);
-		InFoManager.Instance.WriteData(GameManager.Instance.GM_objectList[m_madeBlock].name);
+		//InFoManager.Instance.WriteData(GameManager.Instance.GM_objectList[m_madeBlock].name);
 
-		m_madeBlock++;
+		//m_madeBlock++;
 
 		block.transform.Rotate(rotate); // 블럭생성함수의 매개변수에서 받아온 값을 돌리겠다는 것
 		block.transform.position = createPos; //블럭생성의 위치를 현재블럭에 넣음

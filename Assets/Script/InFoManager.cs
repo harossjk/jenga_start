@@ -27,7 +27,7 @@ public class InFoManager{
 
 		writer.Close();
 	}
-
+	/*
 	public bool textload()
 	{
 		bool istextload = false;
@@ -65,6 +65,7 @@ public class InFoManager{
 			Debug.Log("파일 읽는중 " + source);
 		}
 	}
-	
+	*/
+
 
 }
